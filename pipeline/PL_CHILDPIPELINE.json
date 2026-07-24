@@ -1,0 +1,20 @@
+{
+	"name": "PL_CHILDPIPELINE",
+	"properties": {
+		"parameters": {
+			"ChildTableName": {
+				"type": "string"
+			},
+			"ChildTableSchema": {
+				"type": "string"
+			},
+			"ChildWatermarkColumn": {
+				"type": "string"
+			},
+			"ChildLastLoadValue": {
+				"type": "int"
+			}
+		},
+		"annotations": []
+	}
+}
